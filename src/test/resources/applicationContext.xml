@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/mvc
+          http://www.springframework.org/schema/mvc/spring-mvc.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/aop  
+          http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <!-- DAO tests -->
+    <bean id="orderNumProdImpl" class="com.sg.flooringmastery.dao.FMOrderNumFileImpl" >
+        <constructor-arg value="orderNum.txt" />
+    </bean>
+    
+    <bean id="orderNumTrainingImpl" class="com.sg.flooringmastery.dao.FMOrderNumFileImpl" >
+        <constructor-arg value="orderNumTest.txt" />
+    </bean>
+    
+    <bean id="productDaoFileImpl" class="com.sg.flooringmastery.dao.FMProductDaoFileImpl" >
+        <constructor-arg value="productsTest.txt" />
+    </bean>
+    
+    <bean id="taxRateDaoFileImpl" class="com.sg.flooringmastery.dao.FMTaxRateDaoFileImpl" >
+        <constructor-arg value="taxesTest.txt" />
+    </bean>
+    
+    <bean id="orderDaoProdImpl" class="com.sg.flooringmastery.dao.FMOrderDaoProdImpl" >
+        <constructor-arg value="TestOrders\" />
+    </bean>
+    
+    <bean id="orderDaoTrainingImpl" class="com.sg.flooringmastery.dao.FMOrderDaoTrainingImpl" >
+        <constructor-arg value="TestOrders\" />
+    </bean>
+    
+    <!-- Service tests -->
+    <bean id="orderNumServiceImpl" class="com.sg.flooringmastery.service.FMOrderNumServiceImpl" >
+        <constructor-arg ref="orderNumTrainingImpl" />
+    </bean>
+    
+    <bean id="productServiceImpl" class="com.sg.flooringmastery.service.FMProductServiceImpl" >
+        <constructor-arg ref="productDaoFileImpl" />
+    </bean>
+    
+    <bean id="taxRateServiceImpl" class="com.sg.flooringmastery.service.FMTaxRateServiceImpl" >
+        <constructor-arg ref="taxRateDaoFileImpl" />
+    </bean>
+    
+    <bean id="orderServiceImpl" class="com.sg.flooringmastery.service.FMOrderServiceImpl" >
+        <constructor-arg ref="orderDaoProdImpl" />
+    </bean>
+    
+    <bean id="setModeServiceImpl" class="com.sg.flooringmastery.service.FMSetModeOfProgramImpl" />
+    
+</beans>

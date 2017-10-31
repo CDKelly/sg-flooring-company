@@ -1,0 +1,7 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+5,Sean Carter,PA,6.75,Tile,4.88,3.50,4.15,17.0800,20.2520,2.51991000,39.85191000
+6,Sean Carter,IN,6.00,Carpet,8.99,2.25,2.10,20.2275,18.8790,2.34639000,41.45289000
+7,Sean Carter,OH,6.25,Tile,1000.00,3.50,4.15,3500.0000,4150.0000,478.12500000,8128.12500000
+8,asdf,PA,6.75,Wood,4.56,5.15,4.75,23.4840,21.6600,3.16,48.30
+9,Biggie Smalls,PA,6.75,Tile,5.78,3.50,4.15,20.2300,23.9870,3.10,47.32
+10,Me,PA,6.75,Wood,4.33,5.15,4.75,22.2995,20.5675,289.352250,332.219250

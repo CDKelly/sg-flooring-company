@@ -1,0 +1,2 @@
+State,TaxRate
+AA,6.50

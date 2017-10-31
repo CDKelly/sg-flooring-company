@@ -1,0 +1,9 @@
+com\sg\flooringmastery\service\FMSetModeOfProgramTest.class
+com\sg\flooringmastery\dao\FMOrderNumDaoTest.class
+com\sg\flooringmastery\dao\FMOrderDaoTest.class
+com\sg\flooringmastery\service\FMOrderServiceTest.class
+com\sg\flooringmastery\dao\FMProductDaoTest.class
+com\sg\flooringmastery\dao\FMTaxRateDaoTest.class
+com\sg\flooringmastery\service\FMProductServiceTest.class
+com\sg\flooringmastery\service\FMTaxRateServiceTest.class
+com\sg\flooringmastery\service\FMOrderNumServiceTest.class

@@ -1,0 +1,3 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+5,De La Soul,OH,6.25,Wood,3.56,5.15,4.75,18.3340,16.9100,220.275000,255.519000
+10,Me,PA,6.75,Wood,4.33,5.15,4.75,22.2995,20.5675,289.352250,332.219250

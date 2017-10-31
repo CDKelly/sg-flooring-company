@@ -1,0 +1,4 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Wise,OH,6.25,Wood,100.00,5.15,4.75,515.00,475.00,61.88,1051.88
+3,McSteen,PA,6.75,Tile,100.00,3.50,4.15,350.00,415.00,51.64,816.64
+4,asdf,PA,6.75,Wood,4.33,5.15,4.75,22.2995,20.5675,289.352250,332.219250

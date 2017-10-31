@@ -1,0 +1,5 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+4,Jack Skellington,OH,6.25,Tile,5.66,3.50,4.15,19.8100,23.4890,2.70618750,46.00518750
+9,Me,IN,6.00,Tile,4.33,3.50,4.15,15.1550,17.9695,198.747000,231.871500
+10,Me,PA,6.75,Wood,4.33,5.15,4.75,22.2995,20.5675,289.352250,332.219250
+5,Sean Carter,PA,6.75,Tile,4.88,3.50,4.15,17.0800,20.2520,2.51991000,39.85191000
